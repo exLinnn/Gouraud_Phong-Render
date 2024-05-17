@@ -13,7 +13,7 @@
     -   加载.obj 文件获取模型，计算顶点法向量；
     -   创建 VAO、VBO（顶点）、IBO（索引）、EBO（法向量）等指针，根据 obj 模型设置好参数，并绑定在 OpenGL 项目上；
     -   启动深度测试，绘制模型。
--   `mouse_callback(button, state, x, y) / motion_callback(x, y)`：涉及鼠标行为的两个回调函数。`mouse_callback`函数会检测鼠标行为，主要负责点击行为。当点击右键时负责切换着色器类型。`motion_callback`主要负责拖动行为，旋转视图矩阵并返回。
+-   `mouse_callback(button, state, x, y) / motion_callback(x, y)`：涉及鼠标行为的两个回调函数。`mouse_callback`函数会检测鼠标行为，主要负责点击行为。当点击右键时负责切换着色器类型。`motion_callback`主要负责拖动行为，更新旋转视图矩阵并返回。
 
 ## 使用说明
 
