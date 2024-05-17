@@ -1,4 +1,4 @@
-# OpenGL 渲染
+# README
 
 本项目实现了 gouraud、phong 两种着色器，并加载 .obj 文件进行 OpenGL 渲染。
 
